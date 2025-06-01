@@ -1,0 +1,10 @@
+# Configuration file for enabling features and selecting input specs
+openapi: specs/sample_api.yaml
+asyncio: specs/sample_asyncio.yaml
+features:
+  rest: true
+  grpc: true
+  asyncio: true
+  orm: true
+  observability: true
+output: build

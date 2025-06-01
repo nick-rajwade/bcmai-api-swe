@@ -1,0 +1,4 @@
+operations:
+  listItems:
+    kind: kafka
+    topic: items.list
